@@ -67,11 +67,12 @@ _Estrategia de producto y optimización._
 
 _Herramientas para crear herramientas._
 
-| Skill ID                | Descripción                                                    | Estado         |
-| :---------------------- | :------------------------------------------------------------- | :------------- |
-| **`skill-forge`**       | **(Core)** Sistema de ingeniería de prompts para crear skills. | ✅ **Activo**  |
-| **`writing-plans`**     | Estructuración lógica de tareas complejas antes de ejecutar.   | 🚧 Planificado |
-| **`code-reviewer-pro`** | Lógica de revisión de código estricta y pedagógica.            | 🚧 Planificado |
+| Skill ID                    | Descripción                                                                                                          | Estado               |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------------------- | :------------------- |
+| **`antigravity-architect`** | **(Core)** Arquitecto de sistemas con metodología Socrática. Genera blueprints técnicos completos desde ideas vagas. | ✅ **Activo v2.1.0** |
+| **`skill-forge`**           | Sistema de ingeniería de prompts para crear skills (español).                                                        | ✅ **Activo v1.0**   |
+| **`writing-plans`**         | Estructuración lógica de tareas complejas antes de ejecutar.                                                         | 🚧 Planificado       |
+| **`code-reviewer-pro`**     | Lógica de revisión de código estricta y pedagógica.                                                                  | 🚧 Planificado       |
 
 ---
 

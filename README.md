@@ -1,45 +1,175 @@
+<div align="center">
+
 # ⚡ Antigravity Skills
 
-> **Precision Engineered Capabilities for Google AI Pro Ecosystem**
+**Enterprise-Grade AI Capabilities for Google Gemini Ecosystem**
 
-Welcome to the official repository of **Antigravity Skills**.
-This library hosts specialized, deterministic, and rigorously tested "skills" (instruction sets) for AI agents operating within the Google Antigravity and Gemini ecosystem.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat&logo=google&logoColor=white)](https://ai.google.dev)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
+[![Status: Active](https://img.shields.io/badge/Status-Active-success)](https://github.com/LuisSambrano/antigravity-skills)
 
-## 🛡️ Philosophy: "Zero Hallucination"
+> _Clean-room engineered capabilities. Zero hallucination. Production-ready._
 
-Unlike generic skill libraries, Antigravity Skills are built with a **Clean Room** methodology:
+[📖 Catalog](#-skill-catalog) • [🚀 Quick Start](#-quick-start) • [💬 Support](#-support)
 
-1.  **Written from Scratch:** No copy-pasting. Every line is intentional.
-2.  **Google-First:** Optimized for Gemini Pro 1.5 context windows and GCP infrastructure.
-3.  **Deterministic:** Logic over creativity.
-
-## 📦 Core Skills
-
-### `skill-forge` (The Meta-Skill)
-
-The manufacturing plant for all other skills. Use this skill to creating new capabilities ensuring they meet the **Antigravity Standard**.
-
-## 🚀 Installation
-
-This repository is designed to be the "Source of Truth".
-To use these skills in your project:
-
-1.  **Clone this repo:**
-
-    ```bash
-    git clone https://github.com/YourOrg/antigravity-skills.git ~/antigravity-skills
-    ```
-
-2.  **Link or Copy to your project:**
-    ```bash
-    cp -r ~/antigravity-skills/.agent/skills/custom/skill-forge ./my-project/.agent/skills/
-    ```
-
-## 🤝 Contributing
-
-We follow the **Skill Forge Protocol**.
-Before submitting a PR, ensure your skill passes the `validate.py` check (coming soon).
+</div>
 
 ---
 
-_Built with ❤️ by Antigravity Engineering._
+## 🎯 What is This?
+
+**Antigravity Skills** is a curated library of **deterministic AI instruction sets** (skills) designed for Google Gemini and agentic workflows. Unlike generic prompt libraries, every skill here is:
+
+- ✅ **Clean-room engineered** (written from scratch, no copy-paste)
+- ✅ **Google-first** (optimized for Gemini 1.5 Pro/Flash context windows)
+- ✅ **Production-tested** (used in real commercial projects)
+- ✅ **Bilingual** (English + Spanish support)
+
+Think of it as **"npm for AI capabilities"** — modular, reusable, and battle-tested.
+
+---
+
+## 📚 Skill Catalog
+
+### 🏗️ **Antigravity Architect** `v2.1.0` 🆕
+
+> Senior System Architect that transforms product ideas into technical blueprints using Socratic discovery.
+
+**What it does**:
+
+- 🔍 **Phase 1 (Discovery)**: Researches similar products, asks critical questions, challenges assumptions
+- 🏛️ **Phase 2 (Blueprint)**: Generates complete architecture (Mermaid diagrams, tech stack, schema, risk assessment)
+
+**Best for**: Founders, CTOs, or developers starting a new project who need a technical roadmap before writing code.
+
+**Key Features**:
+
+- Educational multiple-choice questions (novice-friendly)
+- Red Team self-critique (identifies weaknesses in proposed architecture)
+- Cost breakdowns and alternative approaches
+
+📂 [View Skill](/.agent/skills/custom/antigravity-architect/SKILL.md) | 📖 [Question Framework](/.agent/skills/custom/antigravity-architect/QUESTION_FRAMEWORK.md)
+
+---
+
+### 🛠️ **Skill Forge** (Spanish) `v1.0.0`
+
+> Meta-skill for creating new skills that meet Antigravity standards.
+
+**What it does**: Guides you through the process of designing, documenting, and validating a new AI skill.
+
+**Best for**: Developers building custom capabilities for their AI agents.
+
+📂 [View Skill](/.agent/skills/custom/skill-creator-es/SKILL.md)
+
+---
+
+## 🚀 Quick Start
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/LuisSambrano/antigravity-skills.git
+cd antigravity-skills
+```
+
+### Step 2: Use a Skill in Your Project
+
+**Option A: Copy to your project**
+
+```bash
+# Copy a specific skill
+cp -r .agent/skills/custom/antigravity-architect ./my-project/.agent/skills/
+
+# Or copy all skills
+cp -r .agent/skills/custom/* ./my-project/.agent/skills/
+```
+
+**Option B: Reference directly** (if using Antigravity agent)
+
+```bash
+# In your agent config, point to this repo
+SKILLS_PATH=~/antigravity-skills/.agent/skills/custom
+```
+
+### Step 3: Invoke the Skill
+
+Example with **Antigravity Architect**:
+
+```
+User: "I need a platform for farmers to sell to restaurants."
+
+Architect: [Generates Discovery Report with research, questions, and objections]
+
+User: [Answers questions]
+
+Architect: [Generates complete Blueprint with architecture, schema, and implementation plan]
+```
+
+---
+
+## 🧠 Philosophy: "Clean Room Engineering"
+
+We don't copy-paste from the internet. Every skill is designed from first principles:
+
+1. **Zero Hallucination**: Logic-driven, not creativity-driven
+2. **Deterministic Outputs**: Same input → Same output structure
+3. **Google Ecosystem**: Optimized for Gemini, GCP, and modern tooling (Vercel, Supabase)
+4. **Novice-Friendly**: Educational, not intimidating (see [Question Framework](/.agent/skills/custom/antigravity-architect/QUESTION_FRAMEWORK.md))
+
+---
+
+## 📖 Documentation
+
+- **[CATALOG.md](./CATALOG.md)**: Full list of skills with descriptions
+- **[CONTRIBUTING.md](./CONTRIBUTING.md)**: How to submit new skills (coming soon)
+- **Skill-specific docs**: Each skill has its own `SKILL.md` with usage examples
+
+---
+
+## 💬 Support
+
+Have questions or want to request a new skill?
+
+**📱 Telegram**: [@luissambrano_ux](https://t.me/luissambrano_ux)  
+**🐛 Issues**: [GitHub Issues](https://github.com/LuisSambrano/antigravity-skills/issues)
+
+> _We're building a chatbot for automated support. For now, reach out via Telegram for fastest response._
+
+---
+
+## 🗺️ Roadmap
+
+- [x] **v1.0**: Launch with `skill-forge` and `antigravity-architect`
+- [ ] **v1.1**: Add `data-architect` skill (database schema design)
+- [ ] **v1.2**: Add `api-designer` skill (REST/GraphQL API blueprints)
+- [ ] **v2.0**: Web-based skill browser with interactive demos
+
+---
+
+## 📜 License
+
+MIT License - See [LICENSE](./LICENSE) for details.
+
+---
+
+## 🙏 Acknowledgments
+
+Built with ❤️ by **Luis Sambrano** ([Antigravity Engineering](https://github.com/LuisSambrano))
+
+Powered by:
+
+- [Google Gemini 1.5 Pro](https://ai.google.dev)
+- [Supabase](https://supabase.com)
+- [Vercel](https://vercel.com)
+
+---
+
+<div align="center">
+
+**⭐ Star this repo if you find it useful!**
+
+[🔗 View on GitHub](https://github.com/LuisSambrano/antigravity-skills) • [📧 Contact](https://t.me/luissambrano_ux)
+
+</div>
