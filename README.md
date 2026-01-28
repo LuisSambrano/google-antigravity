@@ -49,6 +49,8 @@ Think of it as **"npm for AI capabilities"** — modular, reusable, and battle-t
 - Red Team self-critique (identifies weaknesses in proposed architecture)
 - Cost breakdowns and alternative approaches
 
+**📺 See it in action**: [Live Demo on Gist](https://gist.github.com/LuisSambrano/8c7f188340296102543ca9e0aa2ca4b8) - MicroLearn AI Curator case study
+
 📂 [View Skill](/.agent/skills/custom/antigravity-architect/SKILL.md) | 📖 [Question Framework](/.agent/skills/custom/antigravity-architect/QUESTION_FRAMEWORK.md)
 
 ---
