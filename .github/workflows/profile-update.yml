@@ -107,15 +107,15 @@ jobs:
           # Update STATS section
           if '<!-- STATS:START -->' in content and '<!-- STATS:END -->' in content:
               stats_section = f"""<!-- STATS:START -->
-**📊 Weekly Activity**
-- 📦 Total Repositories: {total_repos}
-- 🆕 New Repos (7d): {new_repos}
-- 📝 Total Gists: {total_gists}
-- ✨ New Gists (7d): {new_gists}
-- 🛠️ Active Skills: {active_skills}
-
-*Last updated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}*
-<!-- STATS:END -->"""
+          **📊 Weekly Activity**
+          - 📦 Total Repositories: {total_repos}
+          - 🆕 New Repos (7d): {new_repos}
+          - 📝 Total Gists: {total_gists}
+          - ✨ New Gists (7d): {new_gists}
+          - 🛠️ Active Skills: {active_skills}
+          
+          *Last updated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}*
+          <!-- STATS:END -->"""
               
               content = re.sub(
                   r'<!-- STATS:START -->.*?<!-- STATS:END -->',
