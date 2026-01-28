@@ -9,6 +9,9 @@ on:
 jobs:
   generate-stats-report:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
 
     steps:
       - name: Checkout repository
