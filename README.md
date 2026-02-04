@@ -6,7 +6,7 @@
 <!-- BADGES -->
 <p>
   <a href="#-quick-start"><img src="https://img.shields.io/badge/Setup-2%20Minutes-success?style=for-the-badge&logo=rocket" alt="2 Minute Setup"/></a>
-  <a href="#-skills-library"><img src="https://img.shields.io/badge/Skills-100+-blue?style=for-the-badge&logo=brain" alt="100+ Skills"/></a>
+  <a href="#-skills-library"><img src="https://img.shields.io/badge/Skills-300+-blue?style=for-the-badge&logo=brain" alt="300+ Skills"/></a>
   <a href="#"><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=opensourceinitiative" alt="MIT License"/></a>
 </p>
 
@@ -20,15 +20,15 @@
 <!-- LANGUAGE SWITCHER -->
 <p>
   <strong>🌐 Language:</strong>
-  <a href="#-quick-start">English</a> •
-  <a href="#-inicio-rápido">Español</a> •
-  <a href="#-início-rápido">Português</a>
+  <a href="./README.md">English</a> •
+  <a href="./README.es.md">Español</a> •
+  <a href="./README.pt.md">Português</a>
 </p>
 
 <br/>
 
 <!-- VALUE PROPOSITION -->
-<h3>🚀 One command. 100+ AI superpowers. Zero configuration.</h3>
+<h3>🚀 One command. 300+ AI superpowers. Zero configuration.</h3>
 
 <p>
   <em>Stop wasting hours configuring your AI assistant.<br/>
@@ -62,7 +62,7 @@ cd antigravity-config && chmod +x install.sh && ./install.sh
 <tr>
 <td width="50%">
 
-### 🧠 100+ Skills
+### 🧠 300+ Skills
 
 Pre-built expertise in:
 
@@ -70,18 +70,20 @@ Pre-built expertise in:
 - **Web Dev** — Next.js, React, Tailwind
 - **Blockchain** — Celo, EVM, MiniPay, DeFi
 - **Security** — API security, Pentesting
+- **Growth** — Marketing Agency, CRO, Copywriting
 - **Automation** — Playwright, GitHub Actions
 
 </td>
 <td width="50%">
 
-### ⚡ 3 Simple Commands
+### ⚡ 4 Simple Commands
 
 Everything else is automatic:
 
 - `/deploy` — Production deployment
 - `/idea` — Evaluate new ideas
 - `/status` — Project health check
+- `/marketing-agency` — Launch full campaigns
 
 </td>
 </tr>
@@ -121,13 +123,14 @@ Your AI handles everything:
 
 |      Category      | Skills | Highlights                                            |
 | :----------------: | :----: | :---------------------------------------------------- |
-|  🤖 **AI Agents**  |   30   | LangGraph, CrewAI, RAG, Voice AI, Prompt Engineering  |
-| 🔧 **Automation**  |   27   | Playwright, Firecrawl, GitHub Actions, Web Scraping   |
-|  🔒 **Security**   |   31   | API Security, Auth, Penetration Testing               |
-|   💻 **Web Dev**   |   67   | Next.js, React, Tailwind, Supabase, Vercel            |
-|  ⛓️ **Web3/Celo**  |   12   | Celo, MiniPay, DeFi, Smart Contracts, Fee Abstraction |
-|   ✍️ **Content**   |   16   | SEO, Technical Writing, Copywriting                   |
-| 🏗️ **Engineering** |   15   | Architecture, Docker, CI/CD, Testing                  |
+|  🤖 **AI Agents**  |  30+   | LangGraph, CrewAI, RAG, Voice AI, Prompt Engineering  |
+| 🔧 **Automation**  |  50+   | Playwright, Firecrawl, GitHub Actions, Web Scraping   |
+|  🔒 **Security**   |  30+   | API Security, Auth, Penetration Testing               |
+|   💻 **Web Dev**   |  100+  | Next.js, React, Tailwind, Supabase, Vercel            |
+|  ⛓️ **Web3/Celo**  |  10+   | Celo, MiniPay, DeFi, Smart Contracts, Fee Abstraction |
+|   ✍️ **Content**   |  30+   | SEO, Technical Writing, Copywriting                   |
+| 🏗️ **Engineering** |  15+   | Architecture, Docker, CI/CD, Testing                  |
+|   📈 **Growth**    |  10+   | Marketing Agency, CRO, A/B Testing, Email Sequences   |
 
 </div>
 
@@ -137,7 +140,9 @@ Your AI handles everything:
 
 ```
 antigravity-config/
-├── 📄 README.md           ← You are here
+├── 📄 README.md           ← English Documentation
+├── 📄 README.es.md        ← Documentación en Español
+├── 📄 README.pt.md        ← Documentação em Português
 ├── 🚀 install.sh          ← One-click installer
 ├── 🧠 GEMINI.md           ← AI brain template
 │
@@ -147,17 +152,17 @@ antigravity-config/
 │   ├── CODE_STANDARDS.md
 │   └── QUALITY_GATES.md
 │
-├── 🛠️ skills/             ← 100+ skills by category
+├── 🛠️ skills/             ← 300+ skills by category
 │   ├── ai-agents/
-│   ├── automation-tools/
-│   ├── security/
+│   ├── product-growth/
 │   ├── web-development/
 │   └── ...
 │
-└── ⚙️ workflows/          ← 3 user commands
+└── ⚙️ workflows/          ← User commands
     ├── deploy.md
     ├── idea.md
-    └── status.md
+    ├── status.md
+    └── marketing-agency.md
 ```
 
 ---
@@ -173,54 +178,6 @@ If this helped you, **give it a star** ⭐ to help others find it!
 </a>
 
 </div>
-
----
-
-## 🇪🇸 Inicio Rápido
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/LuisSambrano/antigravity-config.git
-
-# Ejecutar el instalador
-cd antigravity-config && chmod +x install.sh && ./install.sh
-
-# Reiniciar tu IDE y escribir:
-/status
-```
-
-**¡Listo!** Tu IA ahora tiene superpoderes. 🎉
-
-### ¿Qué obtienes?
-
-- 🧠 **100+ habilidades** pre-configuradas (AI, Web, Blockchain, SEO)
-- ⚡ **3 comandos simples**: `/deploy`, `/idea`, `/status`
-- 📋 **Reglas automáticas** de calidad y seguridad
-- 🤖 **Comportamientos automáticos** sin configuración
-
----
-
-## 🇧🇷 Início Rápido
-
-```bash
-# Clonar o repositório
-git clone https://github.com/LuisSambrano/antigravity-config.git
-
-# Executar o instalador
-cd antigravity-config && chmod +x install.sh && ./install.sh
-
-# Reiniciar sua IDE e digitar:
-/status
-```
-
-**Pronto!** Sua IA agora tem superpoderes. 🎉
-
-### O que você recebe?
-
-- 🧠 **100+ habilidades** pré-configuradas
-- ⚡ **3 comandos simples**: `/deploy`, `/idea`, `/status`
-- 📋 **Regras automáticas** de qualidade e segurança
-- 🤖 **Comportamentos automáticos** sem configuração
 
 ---
 

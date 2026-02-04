@@ -4,8 +4,12 @@ Thank you for your interest in contributing! This document provides guidelines f
 
 ## 🌐 Language
 
-- **Code** (variables, functions, files): English
-- **Documentation**: English (primary), Spanish/Portuguese welcome for translations
+- **Code**: English (Variables, Comments, Commits)
+- **Documentation**: Mandatory Trilingual Support
+  - `README.md` (English - Primary/Source of Truth)
+  - `README.es.md` (Spanish)
+  - `README.pt.md` (Portuguese)
+- **Quality**: Documentation must be "Senior Level" with proper SEO, clear value propositions, and professional structure.
 
 ## 🚀 Quick Start
 
