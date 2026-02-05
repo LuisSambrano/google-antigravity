@@ -73,7 +73,7 @@ tsc --noEmit   # ✅ 0 errores de tipos
 
 **Implicaciones**:
 
-- ✅ README bilingüe (EN + ES) obligatorio
+- ✅ README Trilingüe Senior (EN + ES + PT) obligatorio
 - ✅ Arquitectura visible en diagramas Mermaid
 - ✅ Comentarios explican el "por qué", no el "qué"
 - ✅ CHANGELOG.md actualizado en cada release

@@ -127,7 +127,7 @@ Your AI handles everything:
 | 🔧 **Automation**  |  50+   | Playwright, Firecrawl, GitHub Actions, Web Scraping   |
 |  🔒 **Security**   |  30+   | API Security, Auth, Penetration Testing               |
 |   💻 **Web Dev**   |  100+  | Next.js, React, Tailwind, Supabase, Vercel            |
-|  ⛓️ **Web3/Celo**  |  10+   | Celo, MiniPay, DeFi, Smart Contracts, Fee Abstraction |
+|  ⛓️ **Web3/Celo**  |  20+   | Celo, MiniPay, DeFi, Smart Contracts, Fee Abstraction |
 |   ✍️ **Content**   |  30+   | SEO, Technical Writing, Copywriting                   |
 | 🏗️ **Engineering** |  15+   | Architecture, Docker, CI/CD, Testing                  |
 |   📈 **Growth**    |  10+   | Marketing Agency, CRO, A/B Testing, Email Sequences   |
