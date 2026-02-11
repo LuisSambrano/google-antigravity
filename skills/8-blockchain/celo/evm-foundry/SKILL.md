@@ -71,7 +71,6 @@ my-project/
 | Celo Mainnet | 42220 | https://forno.celo.org |
 | Celo Sepolia | 11142220 | https://forno.celo-sepolia.celo-testnet.org |
 
-
 ## Configuration
 
 ### foundry.toml for Celo

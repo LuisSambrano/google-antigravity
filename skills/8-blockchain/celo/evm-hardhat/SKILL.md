@@ -45,7 +45,6 @@ npm install --save-dev @nomicfoundation/hardhat-toolbox dotenv
 | Celo Mainnet | 42220 | https://forno.celo.org |
 | Celo Sepolia | 11142220 | https://forno.celo-sepolia.celo-testnet.org |
 
-
 ## Configuration
 
 ### hardhat.config.ts for Celo

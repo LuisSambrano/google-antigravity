@@ -25,7 +25,7 @@ Rules, skills, and workflows that standardize how AI coding agents operate acros
 This repository provides a ready-to-use `.agent/` configuration directory for AI coding assistants (Gemini, Cursor, Windsurf, etc.). It includes:
 
 - **Rules** — Coding standards, architecture patterns, and quality gates that the AI agent enforces automatically.
-- **Skills** — Domain-specific knowledge files that extend the agent's expertise (44 skills across 8 categories).
+- **Skills** — Domain-specific knowledge files that extend the agent's expertise (93 skills across 10 categories).
 - **Workflows** — Step-by-step command scripts the agent follows for common tasks like deployment and project setup.
 
 The goal is simple: clone once, install, and have a consistent, opinionated development environment where your AI assistant follows professional standards.
@@ -58,7 +58,7 @@ antigravity-config/
 │   ├── frontend/              # Frontend-specific rules
 │   └── backend/               # Backend-specific rules
 │
-├── skills/                    # Domain knowledge (44 skills)
+├── skills/                    # Domain knowledge (93 skills)
 │   ├── 1-core/                # Coding fundamentals
 │   ├── 2-ai/                  # AI agents, RAG, prompting
 │   ├── 3-web/                 # Web development (Next.js, React, Tailwind)
@@ -66,7 +66,9 @@ antigravity-config/
 │   ├── 5-security/            # API security, pentesting
 │   ├── 6-content/             # Technical writing, SEO
 │   ├── 7-meta/                # Skill creation and management
-│   └── 8-blockchain/          # Celo, EVM, DeFi
+│   ├── 8-blockchain/
+│   ├── 9-business/
+│   └── 10-tools/          # Celo, EVM, DeFi
 │
 ├── workflows/                 # Agent command scripts
 │   ├── deploy.md              # /deploy — production deployment
@@ -86,23 +88,23 @@ antigravity-config/
 
 Skills are markdown files that give the AI agent domain-specific knowledge. Each skill contains instructions, patterns, and references the agent uses when working in that domain.
 
-### 1-core — Fundamentals
+### 1-core — Fundamentals (+6 skills)
 
 Coding conventions, project structure standards, and TypeScript patterns that apply to all projects.
 
-### 2-ai — AI & Agents (10 skills)
+### 2-ai — AI & Agents (21 skills)
 
 Multi-agent orchestration (LangGraph, CrewAI), RAG systems, prompt engineering, voice AI development, and agent evaluation frameworks.
 
-### 3-web — Web Development (8 skills)
+### 3-web — Web Development (17 skills)
 
 Next.js App Router patterns, React best practices, Tailwind CSS architecture, Supabase integration, Vercel deployment, and UI/UX design principles.
 
-### 4-automation — Testing & DevOps (4 skills)
+### 4-automation — Testing & DevOps (10 skills)
 
 Playwright browser testing, GitHub Actions workflows, deployment procedures, and web scraping with Firecrawl.
 
-### 5-security — Security (2 skills)
+### 5-security — Security (5 skills)
 
 API security best practices and penetration testing checklists.
 
@@ -114,7 +116,7 @@ Technical writing guidelines, SEO copywriting, and documentation standards.
 
 Tools for creating new skills, planning with files, and continuous improvement (Kaizen).
 
-### 8-blockchain — Celo & EVM (16 skills)
+### 8-blockchain — Celo & EVM (19 skills)
 
 Full Celo development stack: MiniPay integration, fee abstraction, stablecoin addresses, Celo Composer scaffolding, viem/wagmi libraries, Hardhat/Foundry tooling, cross-chain bridging, DeFi protocol integration, ERC-8004 agent trust protocol, and x402 HTTP payment protocol.
 

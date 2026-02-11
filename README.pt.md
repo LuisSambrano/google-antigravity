@@ -25,7 +25,7 @@ Regras, skills e workflows que padronizam como agentes de código IA operam nos 
 Este repositório fornece um diretório `.agent/` pronto para usar com assistentes de código IA (Gemini, Cursor, Windsurf, etc.). Inclui:
 
 - **Rules** — Padrões de código, padrões de arquitetura e quality gates que o agente IA aplica automaticamente.
-- **Skills** — Arquivos de conhecimento especializado que estendem a expertise do agente (44 skills em 8 categorias).
+- **Skills** — Arquivos de conhecimento especializado que estendem a expertise do agente (93 skills em 10 categorias).
 - **Workflows** — Scripts de comandos passo a passo que o agente segue para tarefas comuns como deployment e setup de projetos.
 
 O objetivo é direto: clonar, instalar e ter um ambiente de desenvolvimento consistente e opinativo onde seu assistente IA segue padrões profissionais.
@@ -58,7 +58,7 @@ antigravity-config/
 │   ├── frontend/              # Regras específicas de frontend
 │   └── backend/               # Regras específicas de backend
 │
-├── skills/                    # Conhecimento de domínio (44 skills)
+├── skills/                    # Conhecimento de domínio (93 skills)
 │   ├── 1-core/                # Fundamentos de código
 │   ├── 2-ai/                  # Agentes IA, RAG, prompting
 │   ├── 3-web/                 # Desenvolvimento web (Next.js, React, Tailwind)
@@ -66,7 +66,9 @@ antigravity-config/
 │   ├── 5-security/            # Segurança API, pentesting
 │   ├── 6-content/             # Escrita técnica, SEO
 │   ├── 7-meta/                # Criação e gestão de skills
-│   └── 8-blockchain/          # Celo, EVM, DeFi
+│   ├── 8-blockchain/
+│   ├── 9-business/
+│   └── 10-tools/          # Celo, EVM, DeFi
 │
 ├── workflows/                 # Scripts de comandos do agente
 │   ├── deploy.md              # /deploy — deployment para produção
@@ -86,23 +88,23 @@ antigravity-config/
 
 Skills são arquivos markdown que dão ao agente IA conhecimento específico de domínio. Cada skill contém instruções, padrões e referências que o agente utiliza ao trabalhar nesse domínio.
 
-### 1-core — Fundamentos
+### 1-core — Fundamentos (+6 skills)
 
 Convenções de código, padrões de estrutura de projeto e padrões TypeScript aplicáveis a todos os projetos.
 
-### 2-ai — IA e Agentes (10 skills)
+### 2-ai — IA e Agentes (21 skills)
 
 Orquestração multi-agente (LangGraph, CrewAI), sistemas RAG, engenharia de prompts, desenvolvimento de Voice AI e frameworks de avaliação de agentes.
 
-### 3-web — Desenvolvimento Web (8 skills)
+### 3-web — Desenvolvimento Web (17 skills)
 
 Padrões de Next.js App Router, melhores práticas de React, arquitetura Tailwind CSS, integração com Supabase, deployment no Vercel e princípios de design UI/UX.
 
-### 4-automation — Testing e DevOps (4 skills)
+### 4-automation — Testing e DevOps (10 skills)
 
 Testing com Playwright, workflows de GitHub Actions, procedimentos de deployment e web scraping com Firecrawl.
 
-### 5-security — Segurança (2 skills)
+### 5-security — Segurança (5 skills)
 
 Melhores práticas de segurança API e checklists de penetration testing.
 
@@ -114,7 +116,7 @@ Guias de escrita técnica, copywriting SEO e padrões de documentação.
 
 Ferramentas para criar novos skills, planejamento com arquivos e melhoria contínua (Kaizen).
 
-### 8-blockchain — Celo e EVM (16 skills)
+### 8-blockchain — Celo e EVM (19 skills)
 
 Stack completo de desenvolvimento Celo: integração com MiniPay, fee abstraction, endereços de stablecoins, scaffolding com Celo Composer, bibliotecas viem/wagmi, tooling Hardhat/Foundry, bridging cross-chain, integração com protocolos DeFi, protocolo de confiança ERC-8004 e protocolo de pagamentos HTTP x402.
 
